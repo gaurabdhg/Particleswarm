@@ -24,7 +24,7 @@ class Particle:
     # update new particle velocity
     def update_vel(self,pos_best_g):
         w=0.5       # constant inertia weight (how much to weigh the previous velocity)
-        c1=1        # cognative constant
+        c1=1        # personal/individual constant
         c2=2        # social constant
         
         for i in range(0,dims):
