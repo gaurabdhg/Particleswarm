@@ -1,3 +1,5 @@
+from random import random,uniform
+
 class Particle:
     def __init__(self, x0y0):
         self.pos_i=[]          # particle position
