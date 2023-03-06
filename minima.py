@@ -1,3 +1,7 @@
+from theclass import Particle
+from random import random,uniform
+
+
 def sphere(x):
     total=0
     for i in range(len(x)):
